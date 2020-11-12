@@ -16,7 +16,7 @@ for i in range(0, len(st)):
 
         ch = ch.lower()
 
-        if(ch == 'a' or ch == 'i' or ch == 'i' or ch == 'o' or ch == 'u'):
+        if(ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u'):
 
             vowel = vowel+1
 
