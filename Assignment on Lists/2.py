@@ -1,6 +1,4 @@
-a = []
-n = int(input("Enter the range"))
-for i in range(0, n):
-    a.append(int(input("Enter the number")))
-d = a.count(1)
-print(d, end="")
+ls = [3, 5, 6, 4, 2, 6, 4, 2, 1, 8, 4, 3, 2, 5, 6]
+print("The list is  ", ls)
+freq = int(input("Enter the number whose frequency you want to see "))
+print(ls.count(freq))
