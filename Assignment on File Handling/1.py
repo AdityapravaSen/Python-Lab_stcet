@@ -1,0 +1,10 @@
+f = open("demo.txt", "r")
+c = 0
+print(f.read())
+print()
+f.seek(0)
+print(f.readline())
+print(f.readline())
+f.seek(0)
+print(f.read(5))
+f.close()
